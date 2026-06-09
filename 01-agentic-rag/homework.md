@@ -97,7 +97,7 @@ for file in files:
 How many lesson pages are in the dataset?
 
 * 24
-* 72
+* 72   *
 * 240
 * 720
 
@@ -111,7 +111,7 @@ Index the documents with minsearch - make `content` a text field and
 What's the `filename` of the first result?
 
 * `01-agentic-rag/lessons/03-rag.md`
-* `01-agentic-rag/lessons/14-agentic-loop.md`
+* `01-agentic-rag/lessons/14-agentic-loop.md` *
 * `04-evaluation/lessons/13-llm-as-judge.md`
 * `06-best-practices/lessons/02-hybrid-search.md`
 
@@ -140,7 +140,7 @@ Use gpt-5.4-mini. How many input (prompt) tokens did we send to the model for
 this request?
 
 * 700
-* 7000
+* 7000    *7136
 * 70000
 * 700000
 
@@ -188,7 +188,7 @@ With `size=2000` and `step=1000` (you can see the implementation
 How many chunks do you get?
 
 * 70
-* 295
+* 295  *
 * 1100
 * 4500
 
@@ -205,7 +205,7 @@ Compare the input tokens with Q3. How many fewer input tokens does the chunked
 version send?
 
 * about the same
-* 3× fewer
+* 3× fewer  * 2319
 * 10× fewer
 * 30× fewer
 
@@ -248,7 +248,7 @@ How many times did the agent call `search`?
 > different model or provider the number may differ, so keep that in mind.
 
 * 0
-* 4
+* 4   *
 * 10
 * 20
 
@@ -305,5 +305,5 @@ Free course by @DataTalksClub: https://github.com/DataTalksClub/llm-zoomcamp/
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/llm-zoomcamp-2026/hw1
+* Submit your results here: https://courses.datatalks.club/llm-zoomcamp-2026/homework/hw1
 * It's possible your answers won't match exactly. If so, select the closest one.
